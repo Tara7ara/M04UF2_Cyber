@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <characters>
 	<character id_character="1">
-		<nombre>Gigante</nombre>
-    		<vida>4780</vida>
- 	 	<danyo>159</danyo>
-    		<rareza>Común</rareza>
+		<name>Gigante</name>
+    		<health>4780</health>
+ 	 	<damage>159</damage>
+    		<rare>Común</rare>
  	</character>
   	<character id_character="2">
-    		<nombre>Mago de Hielo</nombre>
-    		<vida>665</vida>
-    		<danyo>63</danyo>
-    		<rareza>Legendario</rareza>
+    		<name>Mago de Hielo</name>
+    		<health>665</health>
+    		<damage>63</damage>
+    		<rare>Legendario</rare>
   	</character>
   	<character id_character="3">
-    		<nombre>Bárbaros de Élite</nombre>
-    		<vida>1170</vida>
-    		<danyo>96</danyo>
-    		<rareza>Común</rareza>
+    		<name>Bárbaros de Élite</name>
+    		<health>1170</health>
+    		<damage>96</damage>
+    		<rare>Común</rare>
   	</character>
 </characters>

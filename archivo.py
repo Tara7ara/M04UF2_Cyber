@@ -38,3 +38,4 @@ diccionario = {
 }
 #el dicionario no hace falta que se llame asi
 print(diccionario["altura"])
+
