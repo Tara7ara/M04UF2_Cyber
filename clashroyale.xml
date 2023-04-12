@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<clash_royale>
-	<personaje>
+<characters>
+	<character id_character="1">
 		<nombre>Gigante</nombre>
     		<vida>4780</vida>
  	 	<danyo>159</danyo>
     		<rareza>Común</rareza>
- 	</personaje>
-  	<personaje>
+ 	</character>
+  	<character id_character="2">
     		<nombre>Mago de Hielo</nombre>
     		<vida>665</vida>
     		<danyo>63</danyo>
     		<rareza>Legendario</rareza>
-  	</personaje>
-  	<personaje>
+  	</character>
+  	<character id_character="3">
     		<nombre>Bárbaros de Élite</nombre>
     		<vida>1170</vida>
     		<danyo>96</danyo>
     		<rareza>Común</rareza>
-  	</personaje>
-</clash_royale>
+  	</character>
+</characters>
