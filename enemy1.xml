@@ -1,0 +1,20 @@
+<enemigos>
+	<enemigo>
+		<nombre>Goblin</nombre>
+		<descripcion>Un pequeño ser de piel verde y ojos rojos, armado con un cuchillo oxidado.</descripcion>
+		<vida>10</vida>
+		<fuerza>2</fuerza>
+	</enemigo>
+	<enemigo>
+		<nombre>Orco</nombre>
+		<descripcion>Un enorme ser de piel gris y ojos amarillos, armado con un hacha de batalla.</descripcion>
+		<vida>20</vida>
+		<fuerza>4</fuerza>
+	</enemigo>
+	<enemigo>
+		<nombre>Esqueleto</nombre>
+		<descripcion>Un cadáver reanimado por la magia negra, armado con una espada oxidada.</descripcion>
+		<vida>15</vida>
+		<fuerza>3</fuerza>
+	</enemigo>
+</enemigos>
