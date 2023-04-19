@@ -10,11 +10,10 @@ diccionario = xmltodict.parse(xml_file_enemy1.read())
 
 
 
-enemy1= diccionario["enemys"]["enemy"]
-("Nombre: "+enemy1["name"])
-("Daño: "+enemy1["damage"])
-("Vida: "+enemy1["health"])
-("Nivel: "+enemy1["level"])
+enemy1= diccionario["enemigos"]["enemigo"]
+("Nombre: "+enemy1["nombre"])
+("Daño: "+enemy1["fuerza"])
+("Vida: "+enemy1["vida"])
 
 
 
@@ -23,7 +22,7 @@ while True:
 
     vida= int(30)
 
-    vida_enemy1= int((enemy1["health"]))
+    vida_enemy1= int((enemy1["vida"]))
 
     zero= int(0)
 
@@ -47,21 +46,19 @@ while True:
 
         enemy1= diccionario["enemys"]["enemy"]
 
-        print("Nombre: "+enemy1["name"])
+        print("Nombre: "+enemy1["nombre"])
 
-        print("Daño: "+enemy1["damage"])
+        print("Daño: "+enemy1["fuerza"])
 
-        print("Vida: "+enemy1["health"])
-
-        print("Nivel: "+enemy1["level"])
+        print("Vida: "+enemy1["vida"])
 
     elif teclado == "salir":
         break
 
     elif vida == 0:
-        print("Mala suerte papu")
+        print("Mala suerte")
         break
 
     elif vida_enemy1 == 0:
-        print("Acabaste con ell")
+        print("LO MATASTE")
         break
