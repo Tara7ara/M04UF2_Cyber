@@ -15,9 +15,6 @@ enemy1= diccionario["enemigos"]["enemigo"]
 ("Daño: "+enemy1["fuerza"])
 ("Vida: "+enemy1["vida"])
 
-
-
-
 while True:
 
     vida= int(30)

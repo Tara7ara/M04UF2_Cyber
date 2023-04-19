@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<enemies>
+	<enemY>
+		<name>Tara</name>
+		<damage>42</damage>
+		<health>100</health>
+	</enemY>
+	<enemY>
+		<name>Taratara</name>
+		<damage>4242</damage>
+		<health>1000</health>
+	</enemY>
+</enemies>
