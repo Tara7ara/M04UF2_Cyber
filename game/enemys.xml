@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<enemies>
+	<enemY>
+		<name>Troll</name>
+		<damage>1</damage>
+		<health>22</health>
+	</enemY>
+	<enemY>
+		<name>MDLR</name>
+		<damage>999999999</damage>
+		<health>100000000</health>
+	</enemY>
+</enemies>

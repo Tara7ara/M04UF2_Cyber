@@ -3,41 +3,43 @@
 import random
 
 class Enemy:
+	def __init__(self, name, health, strength, description = ""):
+		self.name = name
+		self.health = int(health)
+		self.strength = int(strength)
+		self.description = description
 
-	def __init__(self, nombre, vida, fuerza, descripcion):
-		self.name = nombre
-		self.hp = vida
-		self.damage = fuerza
-		self.description = descripcion
+		print(self.name+": "+self.description)
 
-	def info (self):
-		print ("NAME: "+self.name)
-		print ("HP: "+str(self.hp))
-		print ("DAMAGE: "+str(self.damage))
-
-		if self.description != "":
-			print ("DESCRIPTION: "+self.description)
 
 	def attack (self):
-		return random.randint(0, self.damage)
+		return random.randint(0, self.strength)
+
 
 	def hurt (self, damage):
-		self.hp -= damage
+		self.health -= damage
 
-		if self.hp > 0:
+		if self.health > 0:
 			return False
-	
+		
 		return True
 
+	def show_info (self):
+		print("Name: "+self.name)
+		print("Health: "+str(self.health))
+		print("Strength: "+str(self.strength))
+
+		if self.description != "":
+			print("Description: "+self.description)
+
+
+
+
 if __name__ == "__main__":
+	enemigo = Enemy("Orc", 10, 25, "Es un orco feo, que te esperas")
 
-	orc = Enemy("Orc", 10, 25, "Es un orco feo, que te esperas")
-	orc.info()
+	enemigo.show_info()
 
-#	enemies = [Enemy("Troll",14,7,"Es un troll tonto"),Enemy("Slime",0,1,"Slime de color verde que es mas inutil que yo que se")]
-#	for enemy in enemies:
-#		enemy.info()
+	print(enemigo.hurt(enemigo.attack()))
 
-	print("El orco acaba de pegar un puño en el saco de entrenamiento y ha hecho " + str(orc.attack()) + " de daño")
-
-#	print(orc.hurt(orc.attack())
+	enemigo.show_info()
